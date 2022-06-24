@@ -1,16 +1,3 @@
-const btn = document.getElementById('btn');
-const img = document.getElementById('img');
-const title = document.getElementById('title')
-
-btn.addEventListener('mousemove', () => {
-  img.classList.add('montrer');
-});
-
-btn.addEventListener('mouseout', () => {
-  img.classList.remove('montrer');
-});
-//************************************** */
-
 const mousevent = document.querySelector('.mousevent')
 const vertical = document.querySelector('.vertical')
 const horizontal = document.querySelector('.horizontal')

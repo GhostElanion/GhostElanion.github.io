@@ -15,6 +15,10 @@
     visibility: hidden;
   }
   
+  #shop{
+    visibility: hidden;
+  }
+
   .montrer {
     visibility: visible;
   }
