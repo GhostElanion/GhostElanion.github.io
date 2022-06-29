@@ -1,0 +1,29 @@
+/* Fil rouge : selecteur, dimensions, couleurs */
+/* Texte */
+/* Background */
+/* Boxes */
+/* Positioning */
+/* Flex */
+/* Grid */
+/* Pseudo classe */
+/* Responsive */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+#title{
+  font-family: 'Roboto', sans-serif;
+	font-size: 55px;
+	text-align: center;
+	top: 15px;
+}
+
+main{
+	background: rgba(245, 245, 245, 0.65);
+	width: 85%;
+	left: 15%;
+}
+
+body{
+	background: url(./assets/background.jpg) no-repeat left/cover;
+	height: 100vh;
+	overflow: hidden;
+}

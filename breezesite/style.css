@@ -1,30 +1,27 @@
-* {
-    padding: 8px;
-    text-align: center;
-    border-radius: 30px;
-  }
-  
-  body {
-    min-height: 100vh;
-    transition: 500ms;
-  }
-  
-  img {
-    margin: 0 auto;
-    height: 200px;
-    visibility: hidden;
-  }
-  
-  .montrer {
-    visibility: visible;
-  }
-  
-  .mousevent {
-    border: 6px solid salmon;
-    width: 220px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 10px;
-  }
-  
+body {
+  text-align: center;
+}
+
+.montrer {
+  visibility: visible;
+}
+
+#login{
+  position: absolute;
+  right: 0.8%;
+  top: 	25px;
+}
+
+#title{
+  left: 5%;
+}
+
+.mousevent {
+  border: 6px solid salmon;
+  width: 220px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 3px;
+  border-radius: 20px;
+}
